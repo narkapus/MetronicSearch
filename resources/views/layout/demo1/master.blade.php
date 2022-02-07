@@ -47,10 +47,6 @@
         {{ theme()->getView('pages/apps/chat/_partials/_drawer-messenger') }}
         <!--end::Drawers-->
 
-        <!--begin::Engage-->
-        {{ theme()->getView('partials/engage/_main') }}
-        <!--end::Engage-->
-
         @if(theme()->getOption('layout', 'scrolltop/display') === true)
             {{ theme()->getView('layout/_scrolltop') }}
         @endif
